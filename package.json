@@ -1,0 +1,27 @@
+{
+  "name": "ReplicateNodeApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mrzlab630/replicateNodeApi",
+  "author": "Stepan Zadolia <mrz@mrzlab630.pw>",
+  "description":"ReplicateNodeApi is an open-source project that provides an easy-to-use and robust interface for interacting with the Replicate.com API, using Node.js and TypeScript.",
+  "keywords": [
+    "replicate.com API",
+    "node.js",
+    "typeScript",
+    "replicate.com API Wrapper"
+  ],
+  "license": "MIT",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2"
+  }
+}
